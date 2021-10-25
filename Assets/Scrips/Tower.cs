@@ -38,22 +38,13 @@ public class Tower : MonoBehaviour
 
         if (enemies != null && enemies.Count > 0)
         {
-           // if(canShoot)
             {
-                //Shoot on the enemy
-                Debug.Log("Shoot");
                 canShoot = false;
+                Destroy(enemies[0].gameObject);
+                enemies.RemoveAt(0);
             }
         }
-        //else if(!canShoot)
-        //{
-           // currentFireRate += Time.deltaTime;
-            //if(currentFireRate >= fireRate)
-           // {
-              //  canShoot = true;
-              //  currentFireRate = 0;
-            //}
-        //}
+       
     }
 
     public void Upgrade()
