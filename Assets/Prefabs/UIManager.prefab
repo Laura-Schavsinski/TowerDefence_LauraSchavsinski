@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _timerText: {fileID: 2599780829926814071}
-  _goldText: {fileID: 0}
+  _goldText: {fileID: 3238866434584254066}
 --- !u!1 &2599780828166100799
 GameObject:
   m_ObjectHideFlags: 0
