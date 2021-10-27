@@ -43,10 +43,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 474608104552375200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b01e176cb03f00f43b51f72520acd870, type: 3}
+  m_Script: {fileID: 11500000, guid: 493a708afb2c5a94db1f80e7bc49829d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _upgrade: {fileID: 404900463021150785, guid: 2a06c4132d2d6604b9a68a63a6c56a6c, type: 3}
+  _upgrade: {fileID: 404900463021150785, guid: 02e8d60d52ad1484f92830a4a46d2b7b, type: 3}
   _fireRate: 0.1
 --- !u!136 &2896837219153931533
 CapsuleCollider:
@@ -126,6 +126,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
