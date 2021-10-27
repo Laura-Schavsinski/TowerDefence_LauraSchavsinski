@@ -17,6 +17,13 @@ public class Spawner : MonoBehaviour
         
     }
 
+    private void Spawn()
+    {
+        Vector3 randomPos = transform.position;
+        randomPos.z += Random.Range(-3.0f, 3.0f);
+        Instantiate(enemyPrefab, randomPos, transform.rotation);
+    }
+
     private void Update()
     {
         currentSpawnTime += Time.deltaTime;
