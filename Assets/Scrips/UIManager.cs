@@ -10,6 +10,9 @@ public class UIManager : MonoBehaviour
     public Text _timerText = null;
     private Text timerText { get { return _timerText; }  }
 
+    public Text _goldText = null;
+    private Text goldText { get { return _goldText; } }
+
     private void Awake()
     {
         instance = this;
@@ -27,5 +30,10 @@ public class UIManager : MonoBehaviour
     public void SetTimer(float timer)
     {
         timerText.text = "Timer:" + timer.ToString("F1");
+    }
+
+    public void SetGold(int gold)
+    {
+        goldText.text = "Gold :" + gold;
     }
 }
